@@ -1,3 +1,3 @@
 export function App() {
-  return <h1>Link Start</h1>
+  return <h1 className="text-yellow-100">Link Start</h1>
 }
