@@ -6,7 +6,6 @@ export function ChessKingIcon({ ...props }: ChessKingIconProps) {
   return (
     // biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
     <svg
-      name="Chess King"
       fill="#09090b"
       height="800px"
       width="800px"

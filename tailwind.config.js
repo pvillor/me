@@ -10,16 +10,25 @@ export default {
         typing: {
           '0%': {
             width: '0%',
+            borderRight: '32px solid #f43f5e',
             filter: 'blur(4px)',
+            borderRadius: '100%',
+          },
+          '90%': {
+            width: '90%',
+            borderRight: '1px solid #f43f5e',
+            filter: 'blur(1px)',
+            borderRadius: '64px',
           },
           '100%': {
             width: '100%',
-            filter: 'blur(0)',
+            borderRight: 'transparent',
+            filter: 'blur(0.2px)',
           },
         },
       },
       animation: {
-        typing: 'typing 0.7s steps(36) forwards',
+        typing: 'typing 1s cubic-bezier(0.5, 0, 0.1, 1) forwards',
       },
     },
   },

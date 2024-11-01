@@ -7,7 +7,7 @@ export function Projects() {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="flex gap-3 items-center animate-typing overflow-hidden whitespace-nowrap">
+        <div className="flex gap-3 items-center animate-typing ease-in-out overflow-hidden whitespace-nowrap">
           <h2 className="text-sm font-semibold">Fast Feet</h2>
           <h3 className="hidden md:block text-sm text-zinc-400">
             API for managing shipments
@@ -23,9 +23,9 @@ export function Projects() {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="flex gap-3 items-center animate-typing overflow-hidden whitespace-nowrap">
-          <h2 className="text-sm font-semibold animate-venom">Find A Friend</h2>
-          <h3 className="hidden md:block text-sm text-zinc-400 animate-venom">
+        <div className="flex gap-3 items-center animate-typing ease-in-out overflow-hidden whitespace-nowrap">
+          <h2 className="text-sm font-semibold ">Find A Friend</h2>
+          <h3 className="hidden md:block text-sm text-zinc-400 ">
             Connects users with adoptable pets
           </h3>
           <div className="flex-1 h-px bg-zinc-800" />
@@ -39,7 +39,7 @@ export function Projects() {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="flex gap-3 items-center animate-typing overflow-hidden whitespace-nowrap">
+        <div className="flex gap-3 items-center animate-typing ease-in-out overflow-hidden whitespace-nowrap">
           <h2 className="text-sm font-semibold">Book Wise</h2>
           <h3 className="hidden md:block text-sm text-zinc-400">
             App for tracking and rating books
@@ -55,7 +55,7 @@ export function Projects() {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="flex gap-3 items-center animate-typing overflow-hidden whitespace-nowrap">
+        <div className="flex gap-3 items-center animate-typing ease-in-out overflow-hidden whitespace-nowrap">
           <h2 className="text-sm font-semibold">Next SaaS RBAC</h2>
           <h3 className="hidden md:block text-sm text-zinc-400">
             Multi-tenant SaaS with role-based access
