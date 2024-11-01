@@ -13,7 +13,7 @@ export function Projects() {
             API for managing shipments
           </h3>
           <div className="flex-1 h-px bg-zinc-800" />
-          <span className="text-zinc-500 text-sm">outubro 2024</span>
+          <span className="text-zinc-500 text-sm">october 2024</span>
         </div>
       </a>
 
@@ -29,7 +29,7 @@ export function Projects() {
             Connects users with adoptable pets
           </h3>
           <div className="flex-1 h-px bg-zinc-800" />
-          <span className="text-zinc-500 text-sm">outubro 2024</span>
+          <span className="text-zinc-500 text-sm">october 2024</span>
         </div>
       </a>
 
@@ -45,7 +45,7 @@ export function Projects() {
             App for tracking and rating books
           </h3>
           <div className="flex-1 h-px bg-zinc-800" />
-          <span className="text-zinc-500 text-sm">setembro 2024</span>
+          <span className="text-zinc-500 text-sm">september 2024</span>
         </div>
       </a>
 
@@ -61,7 +61,7 @@ export function Projects() {
             Multi-tenant SaaS with role-based access
           </h3>
           <div className="flex-1 h-px bg-zinc-800" />
-          <span className="text-zinc-500 text-sm">abril 2024</span>
+          <span className="text-zinc-500 text-sm">april 2024</span>
         </div>
       </a>
     </main>

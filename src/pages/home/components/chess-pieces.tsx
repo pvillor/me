@@ -29,7 +29,7 @@ export function ChessPieces() {
   return (
     <button
       type="button"
-      className="fixed opacity-90 z-10 group-hover:cursor-grabbing group-hover:scale-150"
+      className="fixed opacity-90 z-10 cursor-grab group-hover:cursor-grabbing transform transition-all duration-300 ease-in-out group-hover:scale-150"
       onClick={handleSwitchChessPiece}
     >
       {chessPiece === ChessPiece.KING && (
