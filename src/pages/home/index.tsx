@@ -3,7 +3,7 @@ import { Greetings } from './components/greetings'
 
 export function Home() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center -mt-16 md:mt-0 md:items-center">
       <div className="flex flex-col justify-center items-center group">
         <Greetings />
         <ChessPieces />
