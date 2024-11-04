@@ -32,7 +32,7 @@ export function MenuItem({
     <div className="flex flex-col items-center">
       <button
         type="button"
-        className="bg-zinc-800/35 p-3 rounded-full transition-transform duration-300 shadow-sm shadow-zinc-700 hover:scale-150 hover:mx-2 hover:mb-2"
+        className="bg-zinc-800/35 p-3 rounded-full transition-transform duration-300 shadow-sm shadow-zinc-700 hover:scale-150 hover:mx-2 hover:mb-2 hover:bg-rose-500"
         onMouseEnter={() => setIsTooltipVisible(true)}
         onMouseLeave={() => setIsTooltipVisible(false)}
         onClick={() => handleNavigate(route)}

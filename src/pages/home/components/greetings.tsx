@@ -6,7 +6,7 @@ export function Greetings() {
 
   return (
     <div className="absolute z-20">
-      <span className="font-bold text-lg">ようこそ</span>
+      <span className="font-bold text-lg animate-typing">ようこそ</span>
 
       {separatedName.map((namePart, index1) => {
         const separatedNamePart = namePart.split('')
@@ -16,7 +16,7 @@ export function Greetings() {
         }
 
         return (
-          <div key={index1 + length} className="flex">
+          <div key={index1 + length} className="flex animate-typing">
             {separatedNamePart.map((letter, index2) => {
               const isEvenIndex = (index1 + index2) % 2 !== 0
               const isSecondRowFirstCell = index1 === 1 && index2 === 0
